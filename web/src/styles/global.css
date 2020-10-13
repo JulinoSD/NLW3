@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%); */
+    background: #ebf2f5;
+
+    color: #fff;
+}
+
+body, button, input, textarea, div {
+    font: 600 18px 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
