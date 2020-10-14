@@ -8,19 +8,9 @@ function App() {
   return (
     <div id="page-landing">
       <div className="content-wrapper">
-        <div className="local">
-
-          <div className="logo">
             <img src={logo} alt="Logotipo" />
-          </div>
-
-        </div>
         <main>
-          <img src={bckg} alt="crianças" />
-
-          <div className="letter">
-
-          </div>
+          {/* <img src={bckg} alt="crianças" /> */}
 
           <h1>
             Leve felicidade para o mundo
@@ -29,13 +19,15 @@ function App() {
             Visite orfanatos e mude o dia
             de muitas crianças.
           </p>
+        </main>
 
           <div className="location">
             <strong>São Paulo</strong>
             <span>Campinas</span>
           </div>
-          
-        </main>
+          <a href="http://" className="enter-app">
+            p
+          </a>
       </div>
     </div>
   );
